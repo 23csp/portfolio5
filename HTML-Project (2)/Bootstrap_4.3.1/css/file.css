@@ -1,0 +1,37 @@
+.main {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  position:absolute;
+}
+.aboutme {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  position:absolute;
+}
+.projects {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  position:absolute;
+}
+.resume {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  position:absolute;
+}
+.contactme {
+ background-color: #DBE9EE;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 50px;
+} /*border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  position:absolute;
+} -->

@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html>
+ 
+  <!-- Links the css file containing bootstrap -->
+  <head>
+	  <link href="Bootstrap_4.3.1/css/bootstrap.css" rel="stylesheet" type="text/css" />
+   </head>
+ <!-- Sets up the Nav Bar at the top of the page -->
+  <Body style="background-color:#c5d1de"> <!-- Defines the background color -->
+	  <div class="container">
+		  <nav class="nav nav-pills nav-fill">
+			  <a class="nav-item nav-link active" href="index.html">Home</a>
+		  	<a class="nav-item nav-link" href="Last_AboutMe.html">About Me</a>
+			  <a class="nav-item nav-link" href="Last_Resume.html">Resume</a>
+			  <a class="nav-item nav-link " href="Last_Projects.html">Projects</a>
+			  <a class="nav-item nav-link" href="Last_ContactMe.html">Contact Me</a>
+	    	</nav>
+	   </div>
+  <!--Code for the heading at the top of the page -->
+     <div class="container jumbotron" style= "background-color:#9eabba">  
+		    <h1>
+			    Noor's Engineering Portfolio
+		    </h1>
+		     <p>
+			    Noor Dharni is an aspiring Engineer currently taking Computer Science Principles at her high school
+			    <br>
+          <a link href="Last_AboutMe.html">Click here to read more...</a>
+       </p>
+       </div>
+<!--Code for the first card - displaying information about my Scratch DPIE project -->
+    <div class="container">
+      <!-- Credits to Kavya for helping me out with some of the code for the cards -->
+      <div class="row">  <!-- this code is just putting the data in a comtainer and within the bootstrap 'col-md-6' as well as making it in a row-->
+        <div class="col-md-6">
+          <div class="card" > 
+              <div class="row" style="height:100%;">
+                <div class="col-md-6">
+                  <div class="card-header"> <!-- Card header defines the header at the top of the card--> 
+                    Project
+                   </div>
+                  <div class="card-body"> <!--the card body contains all the information displayed on the card -->
+                    <h2>Python Escape Room</h2>
+                    <p>
+                      In her csp class, Noor and her partner designed a fun online escape room using Python. <br>
+                      <a href="Last_Projects.html">Learn more here</a>
+                     </p>
+                   </div>
+                 </div> <!-- Here, I created a seperate column for my image -->
+                  <div class="col-md-6">  
+                    <br><br>
+                    <img class="image" style="width:100%" src="../Images/csp.png" alt="picture">
+              </div>
+            </div>
+          </div>
+      </div>
+      <!--Code for the second card - displaying information about my Scratch DPIE project (Every thing is the same as the first one other than the content) -->
+    <div class="col-md-6">
+       <div class="card" > 
+            <div class="row" style="height:100%;">
+              <div class="col-md-6">
+                <div class="card-header">
+                  Work Experience
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">Soccer Coach</h2>
+                  <p class="card-text">I have pursued many leadership opportunities outside of the engineering field as well. Coaching a u12 rec soccer team for Rage is just one of those endeavors.<a href="https://pleasantonrage.org/programs/recreational/" target="_blank"> Learn More... </a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <br><br>
+                <img class="image" style="width:100%" src="../Images/coach.jpg" alt="picture">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!--Adding empty space for space between rows -->
+  <!--Code for the third card - displaying information about my Scratch CSP project (Every thing is the same as the first one other than the content) -->
+  <div class=row>
+    <br>
+  </div>
+ <div class="row">
+      <div class="col-md-6">
+        <div class="card" > 
+            <div class="row" style="height:100%;">
+              <div class="col-md-6">
+                <div class="card-header">
+                  Project
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title"> CSP Scratch Project </h2>
+                  <p>Noor has created an interactive Scratch story. You can find this project by <a href="https://scratch.mit.edu/projects/327456626/" target="_blank">
+                    Clicking here
+                    </a> or <a href="Last_Projects.html">
+                    continue reading by clicking here
+                  </a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <br><br>
+                <img class="image" style="width:100%" src="Images/duck.png" alt="picture">
+              </div>
+             </div>
+          </div>
+          <!--Code for the fourth card - displaying information about my MIT app inventor project (Every thing is the same as the first one other than the content) -->
+      </div>
+       <div class="col-md-6">
+         <div class="card" > 
+            <div class="row" style="height:100%;">
+               <div class="col-md-6">
+                <div class="card-header">
+                  Project
+                </div>
+                <div class="card-body">
+                  <h2 class="card-title">MIT app inventor</h2>
+                  <p class="card-text"> A collaborator and I were able to successfully design a fully working application that quizzed the user about various sports.<a href="https://appinventor.mit.edu/" target="_blank">  Explore App inventor!</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <br><br>
+                <img class="image" style="width:50 height:50" src="../Images/mit.png" alt="picture">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+   <!--Adding empty space for space between rows -->
+    <div class=row>
+      <br>
+     </div>
+     <!-- This code sets up the footer and allows each image to link to a seperate website -->
+   <footer class="jumbotron" style= "background-image: linear-gradient(#c5d1de,white)">
+      <a href="https://www.linkedin.com/" target="_blank"><img src="Images/in.png" width= "100" height="100" alt="Linkedin Icon">
+     </a>
+     <a href="mailto:noordharnijp@gmail.com" target="_blank"><img src="Images/email.png" width="100" height="100" alt="Mail Icon">
+     </a> 
+     <img src="Images/DHS2.png" alt="Image of DHS logo" style="float:right; width="150" height="150" ">
+     </footer>
+ </html>
